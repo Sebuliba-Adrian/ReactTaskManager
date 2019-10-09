@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 
 const App =()=>{
 
-    return(<div>Hello world</div>)
+    return(<div>Hello Universe!</div>)
 }
-ReactDOM.render(<App/>, getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
